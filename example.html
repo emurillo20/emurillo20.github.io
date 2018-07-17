@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>AboutMe</title>
+  <style>
+  body {
+    background-color: lightblue;
+  }
+  </style>
+  <script src="JavaScript.js"></script>
+  <link rel="stylesheet" href="Ecss.css">
+</head>
+<body>
+  <script>
+
+  </script>
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jasmin</td>
+      <td>Murillo</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>Evelyn</td>
+      <td>Murillo</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>Annalee</td>
+      <td>Saucedo</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Leonardo</td>
+      <td>Saucedo</td>
+      <td>6</td>
+    </tr>
+  </table>
+<div style="position:absolute; top:5; right:5;">
+  <p style="text-align: right">Date </p>
+  <p id="demo" >hi</p>
+
+</div>
+<center><h1 id="evelyn"> About Evelyn</h1></center>
+  <center><img height ="400" width ="300" align="center"src="evelyn.html.jpg"/></center>
+  <p> Hello my name is Evelyn Murillo and I was borm in Chicago</p>
+  <ul>
+    <li> I live in Cicero</li>
+    <li> My birthday is August 17</li>
+    <li> I have one dog her name is Chispita and she's a Jack Russel Mix.</li>
+    <li> I have two cats Igor & Princess</li>
+  </ul>
+  <a href ="https://www.google.com/search?q=jack+russell+terrier&rlz=1C5CHFA_enUS801US803&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiO95nZtqTcAhUOiqwKHR5eDMMQ_AUICigB&biw=792&bih=726#imgrc=kQ8H0jaZK1eKEM:news">Dog</a>
+
+
+  <script>
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.getMonth() + " / " + d.getDate();
+  </script>
+</body>
+</html>
